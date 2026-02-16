@@ -1,0 +1,5 @@
+# Web Framework for the Microservice
+Flask==3.0.0
+
+# Optional: WSGI server recommended by the Flask warning for production-like setups
+# gunicorn==21.2.0
