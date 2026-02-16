@@ -1,3 +1,6 @@
+I have built a Go-based automated remediation system for a Python microservice. Implements real-time observability, fault detection, and self-healing to maintain 99.9% SLOs.
+
+
 ## Overview
 A self-healing distributed system composed of a Python Flask microservice and a Go-based watchdog. This project demonstrates automated fault detection and remediation—key components of Site Reliability Engineering (SRE).
 
@@ -14,3 +17,6 @@ During testing on macOS, the system encountered a Port 5000: Address already in 
 Root Cause: macOS AirPlay Receiver occupies port 5000, and the OS TIME_WAIT state prevents immediate socket reuse after a process kill.
 
 Solution: Implemented a 2-second 'settle' delay in the Go watchdog to allow the OS to release the port before restarting the service.
+
+
+##Any improvement point of views, technical discussions are welcomed. Please reach out. 
